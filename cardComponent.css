@@ -1,0 +1,17 @@
+.body{
+    background-color: #F2EAE2;
+}
+
+.mobile{
+}
+.card{
+    font-family: 'Figtree', sans-serif;
+    width: 327px;
+    height: 501px;
+    border-radius: 20px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 156px;
+    padding: 8.3px;
+}
