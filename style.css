@@ -1,0 +1,79 @@
+.body{
+    background-color:#F4D04E;
+    display: flex;
+    justify-content: center;
+}
+
+
+.card-container{
+    font-family: 'Figtree', sans-serif;
+    width: 327px;
+    height: 501px;
+    border: 1px solid #111111;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 8px 8px #000000;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 156px;
+}
+
+.card-container:hover{
+    transform: scale(1.1);
+}
+
+.blog-image{
+    width: 279px;
+    height: 200px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 24px;
+}
+
+/* .card-container:hover{
+    transform: scale(1.1);
+} */
+
+
+.content{
+    margin-top: 15px;
+    width: 279px;
+    height: 173px;
+    gap: 150px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.button{
+    font-weight: bold;
+    width: 73px;
+    height: 26px;
+    background-color: #F4D04E;
+    border-radius: 4px;
+    line-height: 18px;
+}
+.button:hover{
+    transform: scale(1.1);
+}
+
+.Author{
+    display: flex;
+    align-items: center;
+    width: 150px;
+    height: 32px;
+    gap: 5px;
+    padding: 10px;
+    margin-top: 20px;
+
+}
+
+.img-author{
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+    align-items: center;
+    margin-left: 15px;
+}
+
